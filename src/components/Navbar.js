@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../logo.svg'
 
+// this component is navbar of result analyser
 const Navbar = () => {
   return (
     <div className='flex h-16 bg-blue-900'>

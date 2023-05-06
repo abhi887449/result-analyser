@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from "react-router-dom"
+
+// this component is used to take data from user and request to backend for results
 const DetailForm = (props) => {
     const { setIsLoading, fetchResults } = props
     const [data, setData] = useState({

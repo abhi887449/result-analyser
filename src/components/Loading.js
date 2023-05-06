@@ -1,5 +1,6 @@
 import HashLoader from "react-spinners/HashLoader";
 
+// this component is render when loading is required
 function Loading() {
   return (
     <div className="sweet-loading flex justify-center mt-44">

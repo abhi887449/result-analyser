@@ -36,6 +36,7 @@ const Results = (props) => {
                         </tr>
 
                         {
+                            // this function will return average of all semester
                             data.map((item, index) => {
                                 count += 1;
                                 max_total += Number(item.total[0][0])

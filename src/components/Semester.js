@@ -1,5 +1,7 @@
 import React from 'react'
 
+// this component is for displaying semester result
+
 const Semester = (props) => {
     const { result,index } = props
     return (
